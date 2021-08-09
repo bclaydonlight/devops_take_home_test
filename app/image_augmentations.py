@@ -15,4 +15,5 @@ def fliplr(image: Image):
 def rotate(image: Image):
     return image.rotate(random.randint(0,365))
 
-
+def crop(image: Image):
+    return image.crop(random.randint(0,500),random.randint(0,500),random.randint(0,500),random.randint(0,500))
