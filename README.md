@@ -15,7 +15,7 @@ To complete the flask app you will need to do the following:
 Put the instructions here on how to set up/run the docker file. It should port-forward the application to run on http://127.0.0.1:8000/.
 
     Container setup:
-        Pull container from GHCR
+        docker pull ghcr.io/bclaydonlight/devops_take_home_test:dev
         docker run -p 8000:5000 imgaug
         http://127.0.0.1:8000/?url=https://imgs.xkcd.com/comics/bad_code.png
 
