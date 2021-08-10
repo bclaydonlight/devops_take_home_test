@@ -11,5 +11,4 @@ ENV FLASK_APP=app.py
 
 ###########START NEW IMAGE: DEVELOPMENT ###################
 FROM base as dev
-
-CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0"]
+CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0", "--port=5000"]

@@ -14,6 +14,11 @@ To complete the flask app you will need to do the following:
 
 Put the instructions here on how to set up/run the docker file. It should port-forward the application to run on http://127.0.0.1:8000/.
 
+    Container setup:
+        Pull container from GHCR
+        docker run -p 8000:5000 imgaug
+        http://127.0.0.1:8000/?url=https://imgs.xkcd.com/comics/bad_code.png
+
 To send an image and get the app to work open a link as follows:
 http://0.0.0.0:8000/?url=<image_url>
 for example:
