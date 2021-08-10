@@ -16,7 +16,7 @@ Put the instructions here on how to set up/run the docker file. It should port-f
 
     Container setup:
         docker pull ghcr.io/bclaydonlight/devops_take_home_test:dev
-        docker run -p 8000:5000 imgaug
+        docker run -p 8000:5000 ghcr.io/bclaydonlight/devops_take_home_te:dev
         http://127.0.0.1:8000/?url=https://imgs.xkcd.com/comics/bad_code.png
 
 To send an image and get the app to work open a link as follows:
